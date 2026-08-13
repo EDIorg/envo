@@ -3981,6 +3981,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_03605006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_03605007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_03605008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_03605009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_03622000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_04000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_04000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_04000002>))
@@ -30220,7 +30221,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "USGS:SDTS") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ENVO_01001209> "morass")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "USGS:SDTS") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ENVO_01001209> "muskeg")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001209> "wetland ecosystem"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001209> <http://purl.obolibrary.org/obo/ENVO_01001110>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001209> <http://purl.obolibrary.org/obo/ENVO_01001790>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001209> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_01000635> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002473> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00001998> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0001823>))))))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_01001210> (defence against flooding)
@@ -44899,6 +44900,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_03605009> "freshwater stream ecosystem"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ENVO_03605009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_01001789> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002507> <http://purl.obolibrary.org/obo/ENVO_03605007>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_03605009> <http://purl.obolibrary.org/obo/ENVO_01001789>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_03622000> (wetland biome)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1038/s41586-025-09794-2") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_03622000> "A wetland ecosystem that is undergoing climactic ecological succession."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ENVO_03622000> <https://orcid.org/0000-0002-4366-3088>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ENVO_03622000> "2026-08-13T22:15:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ENVO_03622000> "This class was created to provide a MIxS env_broad_scale value for peat-forming wetlands, including the 'Bogs, mires and fens' habitats of the Microflora Danica project (Natura2000/EUNIS 7000)."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_03622000> "wetland biome"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ENVO_03622000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_01001209> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/ENVO_01001827>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_03622000> <http://purl.obolibrary.org/obo/ENVO_01001209>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_04000000> (adfreezing)
 
