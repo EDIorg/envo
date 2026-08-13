@@ -273,6 +273,14 @@ Datatype: idrange:30
     EquivalentTo:
         xsd:integer[>= 3620000 , <= 3621999]
 
+Datatype: idrange:31
+
+    Annotations:
+        allocatedto: "edi-ontology-agent"
+
+    EquivalentTo:
+        xsd:integer[>= 3622000 , <= 3622999]
+
 
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
